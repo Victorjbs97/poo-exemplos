@@ -1,2 +1,2 @@
-# poo-exemplos
+# PHP em Orientação a objetos
 

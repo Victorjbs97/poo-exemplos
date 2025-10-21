@@ -1,5 +1,5 @@
 <?php
-    require_once "Cliente.php";
+    require_once "./src/Cliente.php";
 
     $cliente1 = new Cliente();
     $cliente2 = new Cliente();
@@ -16,7 +16,7 @@
     <title>Exemplos</title>
 </head>
 <body>
-    <h1 style="color:red;background-color:yellow;font-size:5em;">Exemplos de PHP com POO</h1>
+    <h1 style="color:red;background-color:yellow;font-size:2em;">Exemplos de PHP com POO</h1>
     <hr>
     <h2>Trabalhando com classes e objetos</h2>
     <pre><?=var_dump($cliente1,$cliente2)?></pre>

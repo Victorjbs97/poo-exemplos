@@ -23,19 +23,14 @@
     <h1 style="display:flex;color:red;background-color:yellow;font-size:2em; padding:20px; gap:20px">Exemplos de PHP com POO</h1>
     <hr>
     <h2>Trabalhando com classes e objetos</h2>
-    <h2>Acessando os dados do Objeto!</h2>
-    <h4>Cliente 1:</h4>
-    <ul>
-        <li><strong>Nome: </strong><?=$cliente1->nome?></li>
-        <li><strong>Idade: </strong><?=$cliente1->idade?></li>
-        <li><strong>Email: </strong><?=$cliente1->email?></li>
-    </ul>
+    <h3>Acessando os dados do Objeto!</h3>
+    <?=$cliente1->mostrarDados()?>
     <hr>
-    <section style="color:blue; font-size:2em">
-        <h4>Cliente B:</h4>
-        <p>O cliente <b><?=$cliente2->nome?></b> tem <b><?=$cliente2->idade?></b> e seu email é <b><?=$cliente2->email?></b>.</p>
-        <hr>
-    </section>
+    <?=$cliente2->mostrarDados()?>
+
+
+    <hr>
+    <h3>Visualiazando a estrutura dos objetos.</h3>
     <pre><?=var_dump($cliente1,$cliente2)?></pre>
 </body>
 </html>

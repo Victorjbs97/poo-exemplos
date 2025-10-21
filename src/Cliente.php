@@ -6,9 +6,9 @@
 
         public function mostrarDados(){
             echo "<div>
-                    <h4>NOME DO CLIENTE</h4>
-                    <p><b>e-mail de contato:</b> EMAIL</p>
-                    <p><b>Idade: </b> IDADE anos</p>  
+                    <h4>$this->nome</h4>
+                    <p><b>e-mail de contato:</b> $this->email</p>
+                    <p><b>Idade: </b> $this->idade anos</p>  
                 </div>";
         }
     }

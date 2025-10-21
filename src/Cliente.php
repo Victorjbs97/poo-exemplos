@@ -5,8 +5,10 @@
         public string $email;
         /* Método construtur: responsavel por construir um objeto COM seus dados no mommento da criação */
 
-        public function __construct(string $valorDoNome, int $valorDoIdade, string $valorDoEmail ){
-
+        public function __construct(string $valorDoNome, int $valorDaIdade, string $valorDoEmail ){
+            $this->nome = $valorDoNome;
+            $this->idade = $valorDaIdade;
+            $this->email = $valorDoEmail;
         }
     }
 ?>

@@ -8,7 +8,7 @@
             echo "<div>
                     <h4>$this->nome</h4>
                     <p><b>e-mail de contato:</b> $this->email</p>
-                    <p><b>Idade: </b> $this->idade anos</p>  
+                    <p><b>Idade: </b> $this->idade anos.</p>  
                 </div>";
         }
     }

@@ -27,22 +27,22 @@
     <title>Livros</title>
 </head>
 <body>
-    <section class="flex flex-row ...">
+    <h1 class="text-3xl font-bold underline text-sky-500 font-mono ...">Livros</h1>
+    <section class="columns-3 ...">
 
-        <h1 class="text-3xl font-bold underline text-sky-500 font-mono ...">Livros</h1>
-        <div class="border-4 bg-indigo-500 bg-clip-content p-3">
+        <div class="aspect-3/2 ...">
             <hr>
             <h2><?=$livro1->titulo?></h2>
             <p><b><?=$livro1->paginas?></b> pg.</p>
         </div>
         
-        <div class="border-4 bg-indigo-500 bg-clip-content p-3">
+        <div class="aspect-square ...">
             <hr>
             <h2><?=$livro2->titulo?></h2>
             <p><b><?=$livro2->paginas?></b> pg.</p>
         </div>
         
-        <div class="border-4 bg-indigo-500 bg-clip-content p-3">
+        <div class="box-decoration-slice bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white ...">
             <hr>
             <h2><?=$livro3->titulo?></h2>
             <p><b><?=$livro3->paginas?></b> pg.</p>

@@ -15,7 +15,7 @@
     <title>Exemplos</title>
 </head>
 <body class="">
-    <h1 class="text-lg ...">Exemplos de PHP com POO</h1>
+    <h1 class="text-2xl ...">Exemplos de PHP com POO</h1>
     <hr>
     <h2>Trabalhando com classes e construtor</h2>
 

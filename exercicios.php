@@ -1,24 +1,24 @@
-<?php 
-    require_once "./src/Livro.php";
-    $livro1 = new Livro();
-    $livro2 = new Livro();
-    $livro3 = new Livro();
+<!-- <?php 
+    //require_once "./src/Livro.php";
+    //$livro1 = new Livro();
+    //$livro2 = new Livro();
+    //$livro3 = new Livro();
 
-    $livro1->titulo = "o alienista";
-    $livro1->autor = "Machado de Assis";
-    $livro1->paginas = 74;
+    //$livro1->titulo = "o alienista";
+    //$livro1->autor = "Machado de Assis";
+    //$livro1->paginas = 74;
 
-    $livro2->titulo = "Neuromancer";
-    $livro2->autor = "William Gibson";
-    $livro2->paginas = 374;
+    //$livro2->titulo = "Neuromancer";
+    //$livro2->autor = "William Gibson";
+    //$livro2->paginas = 374;
 
-    $livro3->titulo = "Androides Sonham com Ovelhas Elétricas?";
-    $livro3->autor = "Philip K. Dick";
-    $livro3->paginas = 316;
+    //$livro3->titulo = "Androides Sonham com Ovelhas Elétricas?";
+    //$livro3->autor = "Philip K. Dick";
+    //$livro3->paginas = 316;
 
 ?>
-
-<!DOCTYPE html>
+ -->
+<!-- <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -49,4 +49,4 @@
         </div>
     </section>
 </body>
-</html>
+</html> -->

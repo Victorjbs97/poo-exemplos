@@ -16,9 +16,10 @@
 </head>
 <body class="">
     <h1 class="text-2xl ...">Exemplos de PHP com POO</h1>
-    <hr>
-    <h2>Trabalhando com classes e construtor</h2>
+    <h2><?=$clienteA->getNome()?></h2>
+    <h2><?=$clienteA->getIdade()?></h2>
+    <h2><?=$clienteA->getEmail()?></h2>
+    <h2><?=$clienteA->getTelefone()?></h2>
 
-    <pre><?=var_dump($clienteA,$clienteB,$clienteC)?></pre>
 </body>
 </html>

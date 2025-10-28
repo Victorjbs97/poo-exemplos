@@ -1,7 +1,7 @@
 <?php
     require_once "./src/Cliente.php";
 
-    $clienteA = new Cliente("João",27,"joao@email.com");
+    $clienteA = new Cliente("",-27,"joao.com","11951746767");
     $clienteB = new Cliente("Pedro",20,"pedro@email.com");
     $clienteC = new Cliente("Marcos",36,"Marcos@email.com","11 951746767");
 

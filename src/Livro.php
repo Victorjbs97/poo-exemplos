@@ -1,10 +1,10 @@
 <?php 
 
     class Livro{
-        public string $titulo;
-        public string $autor;
-        public ?int $paginas;
-        public ?string $imagem;
+        private string $titulo;
+        private string $autor;
+        private ?int $paginas;
+        private ?string $imagem;
 
         public function __construct(string $titulo,string $autor, ?int $paginas = null, ?string $img = null){   
             $this->titulo = $titulo;
